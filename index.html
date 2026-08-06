@@ -27,7 +27,7 @@
                 document.documentElement.setAttribute('dir', dir);
                 document.documentElement.classList.toggle('lang-ar', lang === 'ar');
             } catch (e) {
-                // Ignore storage issues and fall back to the default.
+                
             }
         })();
     </script>
@@ -72,11 +72,7 @@
             <a href="#skills" class="mobile-link" data-i18n="nav.skills">Skills</a>
             <a href="projects.html" class="mobile-link" data-i18n="nav.projects">Projects</a>
             <a href="#contact" class="mobile-link" data-i18n="nav.contact">Contact</a>
-            <button type="button" class="mobile-lang-switch" id="mobileLangSwitch">
-                <span class="lang-switch-option" data-lang-option="en">EN</span>
-                <span class="lang-switch-divider">/</span>
-                <span class="lang-switch-option" data-lang-option="ar">AR</span>
-            </button>
+            
         </div>
     </header>
 
