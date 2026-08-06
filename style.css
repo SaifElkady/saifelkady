@@ -51,10 +51,24 @@ body {
     overflow-x: hidden;
 }
 
-body.lang-ar {
+body.lang-ar,
+html[lang="ar"] body {
     font-family: var(--font-arabic);
 }
 
+body.lang-ar .intro-brand,
+body.lang-ar .brand,
+body.lang-ar .brand-name,
+html[lang="ar"] body .intro-brand,
+html[lang="ar"] body .brand,
+html[lang="ar"] body .brand-name {
+    font-family: var(--font-arabic);
+}
+
+body.lang-ar .brand,
+html[lang="ar"] body .brand {
+    direction: rtl;
+}
 
 body.lang-ar .hero-greet,
 body.lang-ar .editor-filename,
