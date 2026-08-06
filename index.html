@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saif Elkady - The Website Dealer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cairo:wght@200..1000&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="is-loading">
+
+    <div class="intro-loader" id="introLoader" role="presentation" aria-hidden="true">
+        <span class="intro-brand" data-i18n="brand">SaifElkady<span class="accent-dot">.</span></span>
+    </div>
+
+    <header class="nav ">
+        <div class="nav-inner">
+            <div class="brand">
+                <a href="#" class="brand-name" data-i18n="brand">SaifElkady<span class="accent-dot">.</span></a>
+            </div>
+            <nav class="tabs" aria-label="Section navigation">
+                <a href="#hero" class="tab" data-i18n="nav.home">Home</a>
+                <a href="#about" class="tab" data-i18n="nav.about">About</a>
+                <a href="#skills" class="tab" data-i18n="nav.skills">Skills</a>
+                <a href="projects.html" class="tab tab-projects" data-i18n="nav.projects">Projects</a>
+                <a href="#contact" class="tab" data-i18n="nav.contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button type="button" class="lang-switch" id="langSwitch" aria-label="Switch language">
+                    <span class="lang-switch-option" data-lang-option="en">EN</span>
+                    <span class="lang-switch-divider">/</span>
+                    <span class="lang-switch-option" data-lang-option="ar">AR</span>
+                </button>
+                <a href="#contact" class="cta-btn" data-i18n="nav.contactCta">Contact me</a>
+                <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle navigation menu">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#hero" class="mobile-link" data-i18n="nav.home">Home</a>
+            <a href="#about" class="mobile-link" data-i18n="nav.about">About</a>
+            <a href="#skills" class="mobile-link" data-i18n="nav.skills">Skills</a>
+            <a href="projects.html" class="mobile-link" data-i18n="nav.projects">Projects</a>
+            <a href="#contact" class="mobile-link" data-i18n="nav.contact">Contact</a>
+            <button type="button" class="mobile-lang-switch" id="mobileLangSwitch">
+                <span class="lang-switch-option" data-lang-option="en">EN</span>
+                <span class="lang-switch-divider">/</span>
+                <span class="lang-switch-option" data-lang-option="ar">AR</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero reveal-section" id="hero">
+            <div class="hero-copy">
+                <h1>
+                    <span class="hero-greet" data-i18n="hero.greet">Hey, I'm Saif Elkady.</span>
+                    <br>
+                    <span class="hero-line" data-i18n="hero.line">I build interfaces that nourish the eyes, not just render.</span>
+                </h1>
+                <div class="hero-actions">
+                    <a href="projects.html" class="hero-btn" data-i18n="hero.viewProjects">View projects</a>
+                    <a href="#contact" class="hero-btn" data-i18n="hero.getInTouch">Get in touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about reveal-section" id="about">
+            <div class="section-inner about-inner">
+                <div class="about-text">
+                    <h2 data-i18n="about.heading">Who's building this</h2>
+                    <p class="about-lede" data-i18n="about.lede1">I'm Saif Elkady, a frontend developer, and Co-Founder &amp; CTO at
+                        <a href="https://extem.net" target="_blank" rel="noopener noreferrer" style="color: #05055f;">EXTEM</a>, a creative studio working across web, AI, and videos.
+                    </p>
+                    <p class="about-lede" data-i18n="about.lede2">I like taking a rough idea and turning it into an interface that
+                        actually holds up in production for clients, and for the studio itself.</p>
+
+                    <ul class="about-facts">
+                        <li><span data-i18n="about.factBasedInLabel">Based in</span><span data-i18n="about.factBasedInValue">Egypt</span></li>
+                        <li><span data-i18n="about.factFocusLabel">Focus</span><span data-i18n="about.factFocusValue">Frontend development</span></li>
+                        <li><span data-i18n="about.factAlsoLabel">Also</span><span data-i18n="about.factAlsoValue">Co-Founder &amp; CTO of EXTEM</span></li>
+                        <li><span data-i18n="about.factExpLabel">Experience</span><span data-i18n="about.factExpValue">2+ years in web development</span></li>
+                        <li><span data-i18n="about.factProjLabel">Projects</span><span data-i18n="about.factProjValue">More than 10 completed projects</span></li>
+                    </ul>
+                </div>
+                <div class="about-photo">
+                    <div class="photo-frame">
+                        <span>saif.jpg</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills reveal-section" id="skills">
+            <div class="section-inner">
+                <h2 data-i18n="skills.heading">Skills</h2>
+                <p class="section-sub" data-i18n="skills.sub">The skills I can use in my work.</p>
+
+                <div class="chip-row">
+                    <span class="chip">1.HTML</span>
+                    <span class="chip">2.CSS</span>
+                    <span class="chip">3.JavaScript</span>
+                    <span class="chip">4.TypeScript</span>
+                    <span class="chip">5.React</span>
+                    <span class="chip">6.Tailwind</span>
+                    <span class="chip">7.Bootstrap</span>
+                    <span class="chip">8.Git</span>
+                    <span class="chip">9.GitHub</span>
+                </div>
+
+                <a href="projects.html" class="cta-link"><span data-i18n="skills.viewProjects">View projects</span> <span>➜</span></a>
+            </div>
+        </section>
+
+        <section class="contact reveal-section" id="contact">
+            <div class="section-inner">
+                <h2 data-i18n="contact.heading">Let's talk</h2>
+                <p class="section-sub" data-i18n="contact.sub">Open to frontend roles and freelance work alongside EXTEM.</p>
+
+                <div class="terminal">
+                    <div class="editor-titlebar">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        <span class="editor-filename">contact.zsh</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">$</span> <span class="type-cmd" data-text="whoami">whoami</span><span class="type-caret"></span></p>
+                        <p class="out" data-i18n="contact.whoami">I'm Saif Elkady, a Frontend Developer, Co-Founder &amp; CTO @ EXTEM</p>
+                        <p><span class="prompt">$</span> <span class="type-cmd" data-text="cat contact.md">cat contact.md</span><span class="type-caret"></span></p>
+                        <p class="out">
+                            <span data-i18n="contact.emailLabel">Email</span> &nbsp;&nbsp;➜ <a href="mailto:ssaifelkadyy@gmail.com">ssaifelkadyy@gmail.com</a><br>
+                            <span data-i18n="contact.githubLabel">GitHub</span> &nbsp;➜ <a href="https://github.com/SaifElkady">https://github.com/SaifElkady</a><br>
+                            <span data-i18n="contact.whatsappLabel">WhatsApp</span> ➜ <a href="https://wa.me/01114382483">+20 111 438 2483</a><br>
+                            <span data-i18n="contact.instagramLabel">Instagram</span> ➜ <a href="https://www.instagram.com/ssaifelkadyy/">@ssaifelkadyy</a>
+                        </p>
+                        <p class="final-prompt"><span class="prompt">$</span> <span class="cursor-blink">&nbsp;</span></p>
+                    </div>
+                </div>
+
+                <a href="mailto:ssaifelkadyy@gmail.com" class="btn btn-primary btn-large"><span data-i18n="contact.sayHello">Say hello! ssaifelkadyy@gmail.com</span></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="section-inner footer-inner">
+            <span data-i18n="footer.line">© 2026 Saif Elkady. Built by hand, No framework needed btw :)</span>
+            <a href="#hero" class="back-top" data-i18n="footer.backTop">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="i18n.js" defer></script>
+    <script src="index.js" defer></script>
+
+</body>
+
+</html>
