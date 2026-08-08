@@ -671,16 +671,73 @@ body.lang-ar .about-facts li span:first-child {
 }
 
 @media (max-width: 860px) {
+    .about {
+        padding: 72px 0;
+    }
+
     .about-inner {
         grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .about h2 {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .about-lede {
+        font-size: 1rem;
+        max-width: none;
     }
 
     .about-photo {
         order: -1;
+        align-items: center;
+    }
+
+    .photo-frame {
+        max-width: 260px;
+        width: min(100%, 260px);
+    }
+
+    .date {
+        margin: 10px 0 0 auto;
+        font-size: 0.72rem;
+        text-align: right;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 60px 0;
+    }
+
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .about-facts {
+        margin-top: 22px;
+    }
+
+    .about-facts li {
+        flex-direction: column;
+        gap: 4px;
+        padding: 12px 0;
+    }
+
+    .about-facts li span:first-child {
+        flex: none;
+        padding-top: 0;
     }
 
     .photo-frame {
         max-width: 220px;
+    }
+
+    .date {
+        font-size: 0.68rem;
+        letter-spacing: 0.14em;
     }
 }
 
