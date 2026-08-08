@@ -28,7 +28,7 @@
 }
 
 *::selection {
-    background: var(--accent-selection);
+    background: var(--black);
     color: var(--white);
 }
 
@@ -426,13 +426,13 @@ body.is-loading {
     padding: 88px 32px 60px;
     overflow: hidden;
     isolation: isolate;
-    min-height: 620px;
+    min-height: 680px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image:
-        linear-gradient(to right, rgba(10, 10, 10, 0.05) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(10, 10, 10, 0.05) 1px, transparent 1px);
+        linear-gradient(to right, rgba(10, 10, 10, 0.10) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(10, 10, 10, 0.10) 1px, transparent 1px);
     background-size: 32px 32px;
     --mx: 50%;
     --my: 42%;
@@ -451,7 +451,7 @@ body.is-loading {
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(420px circle at var(--mx) var(--my), rgba(10, 10, 10, 0.06), transparent 70%);
+    background: radial-gradient(420px circle at var(--mx) var(--my), rgba(51, 50, 50, 0.151), transparent 70%);
     pointer-events: none;
     z-index: 2;
     opacity: 0;
@@ -632,11 +632,12 @@ body.lang-ar .about-facts li span:first-child {
 .about-photo {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .photo-frame {
     width: 100%;
-    max-width: 320px;
+    max-width: 350px;
     aspect-ratio: 3/4;
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -649,6 +650,24 @@ body.lang-ar .about-facts li span:first-child {
     background: repeating-linear-gradient(135deg, rgba(10, 10, 10, 0.04) 0 2px, transparent 2px 14px);
     box-shadow: calc(4px * var(--dir)) 4px 0px var(--black);
     direction: ltr;
+}
+
+.photo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -120px;
+    border-radius: var(--radius);
+}
+
+.date {
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 50px;
+    font-size: 0.85rem;
+    letter-spacing: 0.18em;
+    color: var(--text);
+    text-align: right;
 }
 
 @media (max-width: 860px) {
@@ -901,6 +920,7 @@ body.lang-ar .projects-hero h1 {
 
 .project-row-desc {
     margin-top: 8px;
+    margin-bottom: 8px;
     max-width: 46ch;
     font-size: 0.92rem;
     color: inherit;
@@ -915,7 +935,6 @@ body.lang-ar .projects-hero h1 {
 }
 
 .project-row-tag {
-    font-family: var(--font-mono);
     font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -960,7 +979,6 @@ body.lang-ar .project-row:focus-visible .project-row-arrow {
 }
 
 .tag-chip {
-    font-family: var(--font-mono);
     font-size: 0.72rem;
     padding: 5px 12px;
     border-radius: 20px;

@@ -8,7 +8,7 @@ const translations = {
         'nav.skills': 'Skills',
         'nav.projects': 'Projects',
         'nav.contact': 'Contact',
-        'nav.contactCta': 'Message on WhatsApp',
+        'nav.contactCta': 'Message me',
 
         'hero.greet': "Hey, I'm Saif Elkady.",
         'hero.line': 'I build interfaces that nourish the eyes, not just render.',

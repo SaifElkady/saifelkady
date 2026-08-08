@@ -1,33 +1,3 @@
-// ---- Shared helpers ----
-const SCRAMBLE_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%_+-<>?/\\';
-
-function scrambleTo(el, finalText, { duration = 800, frameMs = 30 } = {}) {
-    if (el._scrambleTimer) clearInterval(el._scrambleTimer);
-
-    const totalFrames = Math.max(1, Math.round(duration / frameMs));
-    let frame = 0;
-
-    el._scrambleTimer = setInterval(() => {
-        frame++;
-        let out = '';
-        for (let i = 0; i < finalText.length; i++) {
-            const ch = finalText[i];
-            if (ch === ' ') {
-                out += ' ';
-                continue;
-            }
-            const lockFrame = (i / finalText.length) * totalFrames;
-            out += frame >= lockFrame ? ch : SCRAMBLE_CHARS[Math.floor(Math.random() * SCRAMBLE_CHARS.length)];
-        }
-        el.textContent = out;
-
-        if (frame >= totalFrames) {
-            el.textContent = finalText;
-            clearInterval(el._scrambleTimer);
-            el._scrambleTimer = null;
-        }
-    }, frameMs);
-}
 
 function typeText(el, text, speed = 45) {
     return new Promise((resolve) => {
