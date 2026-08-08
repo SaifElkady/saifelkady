@@ -1,6 +1,4 @@
-// ============================================
-// Saif Elkady — i18n (English / Egyptian Arabic)
-// ============================================
+
 
 const translations = {
     en: {
@@ -10,7 +8,7 @@ const translations = {
         'nav.skills': 'Skills',
         'nav.projects': 'Projects',
         'nav.contact': 'Contact',
-        'nav.contactCta': 'Contact me',
+        'nav.contactCta': 'Message on WhatsApp',
 
         'hero.greet': "Hey, I'm Saif Elkady.",
         'hero.line': 'I build interfaces that nourish the eyes, not just render.',
@@ -18,14 +16,12 @@ const translations = {
         'hero.getInTouch': 'Get in touch',
 
         'about.heading': "Who's building this",
-        'about.lede1': 'I\'m Saif Elkady, a frontend developer, and Co-Founder &amp; CTO at <a href="https://extem.net" target="_blank" rel="noopener noreferrer" style="color: #05055f;">EXTEM</a>, a creative studio working across web, AI, and videos.',
+        'about.lede1': "I'm Saif Elkady, a frontend developer based in Egypt, turning rough ideas into interfaces that hold up in production.",
         'about.lede2': 'I like taking a rough idea and turning it into an interface that actually holds up in production for clients, and for the studio itself.',
         'about.factBasedInLabel': 'Based in',
         'about.factBasedInValue': 'Egypt',
         'about.factFocusLabel': 'Focus',
         'about.factFocusValue': 'Frontend development',
-        'about.factAlsoLabel': 'Also',
-        'about.factAlsoValue': 'Co-Founder &amp; CTO of EXTEM',
         'about.factExpLabel': 'Experience',
         'about.factExpValue': '2+ years in web development',
         'about.factProjLabel': 'Projects',
@@ -36,35 +32,37 @@ const translations = {
         'skills.viewProjects': 'View projects',
 
         'contact.heading': "Let's talk",
-        'contact.sub': 'Open to frontend roles and freelance work alongside EXTEM.',
-        'contact.whoami': "I'm Saif Elkady, a Frontend Developer, Co-Founder &amp; CTO @ EXTEM",
+        'contact.sub': 'Open to frontend roles and freelance work. WhatsApp is the fastest way to reach me.',
+        'contact.whoami': "I'm Saif Elkady, a Frontend Developer",
+        'contact.whatsappLabel': 'WhatsApp',
+        'contact.preferredTag': '(fastest reply)',
         'contact.emailLabel': 'Email',
         'contact.githubLabel': 'GitHub',
-        'contact.whatsappLabel': 'WhatsApp',
         'contact.instagramLabel': 'Instagram',
-        'contact.sayHello': 'Say hello! ssaifelkadyy@gmail.com',
+        'contact.sayHello': 'Message me on WhatsApp',
 
         'footer.line': '© 2026 Saif Elkady. Built by hand, No framework needed btw :)',
         'footer.backTop': 'Back to top ↑',
 
         'projects.heading': 'Selected work',
-        'projects.sub': "A running list of things I've built — for clients, for EXTEM, and for myself.",
-        'projects.thumbPlaceholder': 'screenshot placeholder — swap for a real capture',
-        'projects.p1.title': 'Extem Academy',
-        'projects.p1.tag': 'EXTEM',
-        'projects.p1.desc': 'A React-based education platform built under EXTEM. Set up routing with React Router, built the sign-in/sign-up auth flow, and structured the project from the ground up.',
-        'projects.p2.title': 'EXTEM — company site',
-        'projects.p2.tag': 'EXTEM',
-        'projects.p2.desc': "The studio's own website. Ongoing frontend ownership: rebuilt the mobile navbar as a frosted-glass pill, made every page responsive, and refactored the markup for semantics and accessibility.",
-        'projects.p3.title': 'Personal workspace app',
-        'projects.p3.tag': 'Personal',
-        'projects.p3.desc': 'A personal productivity workspace, self-initiated and self-designed. Gave the authentication flow a full visual overhaul with a warm ink-and-amber "notebook" aesthetic.',
-        'projects.tagAuth': 'Auth',
-        'projects.tagHtmlCss': 'HTML/CSS',
-        'projects.tagAccessibility': 'Accessibility',
-        'projects.tagUiDesign': 'UI design',
-        'projects.liveSite': 'Live site',
-        'projects.code': 'Code',
+        'projects.sub': "A running list of things I've built for clients.",
+
+        'projects.extem.desc': 'Company website built to present the brand, services, and professional identity clearly.',
+        'projects.extem.tag': 'Company site',
+        'projects.glimmerka.desc': 'E-commerce website designed to showcase products and support a smooth shopping experience.',
+        'projects.glimmerka.tag': 'E-commerce',
+        'projects.ahmedhisham.desc': 'Portfolio website built to present work, skills, and personal identity in a clean and modern way.',
+        'projects.ahmedhisham.tag': 'Portfolio',
+
+        'projects.tagWeb': 'Web',
+        'projects.tagBrand': 'Brand',
+        'projects.tagUi': 'UI',
+        'projects.tagFrontend': 'Frontend',
+        'projects.tagMarketing': 'Marketing',
+        'projects.tagDesign': 'Design',
+        'projects.tagPortfolio': 'Portfolio',
+        'projects.tagResponsive': 'Responsive',
+        'projects.tagLanding': 'Landing',
     },
 
     ar: {
@@ -82,14 +80,12 @@ const translations = {
         'hero.getInTouch': 'اتواصل معايا',
 
         'about.heading': 'مين اللي بني الموقع ده',
-        'about.lede1': 'أنا سيف القاضي، Frontend Developer، والمؤسس المشارك والـ CTO في <a href="https://extem.net" target="_blank" rel="noopener noreferrer" style="color: #05055f;">EXTEM</a>، استوديو إبداعي بيشتغل في الويب والـ AI والفيديو.',
-        'about.lede2': 'بحب آخد الفكرة وأحوّلها لواجهة مش بس تشتغل, كمان تبقي مريحه وتشد الاهتمام، سواء للعملاء أو للاستوديو نفسه.',
+        'about.lede1': 'أنا سيف القاضي، Frontend Developer مقيم في مصر، بحوّل الأفكار البسيطة لواجهات شغالة فعلًا.',
+        'about.lede2': 'بحب آخد الفكرة وأحوّلها لواجهة مش بس تشتغل, كمان تبقي مريحه وتشد الاهتمام، سواء للعملاء أو ليا أنا شخصيًا.',
         'about.factBasedInLabel': 'مكاني',
         'about.factBasedInValue': 'مصر',
         'about.factFocusLabel': 'التخصص',
         'about.factFocusValue': 'تطوير الـ Frontend',
-        'about.factAlsoLabel': 'كمان',
-        'about.factAlsoValue': 'مؤسس مشارك و CTO في EXTEM',
         'about.factExpLabel': 'الخبرة',
         'about.factExpValue': 'أكتر من سنتين في تطوير الويب',
         'about.factProjLabel': 'المشاريع',
@@ -100,35 +96,37 @@ const translations = {
         'skills.viewProjects': ' المشاريع',
 
         'contact.heading': 'تواصل معايا',
-        'contact.sub': 'متاح لوظايف Frontend وشغل freelance جنب EXTEM.',
-        'contact.whoami': 'أنا سيف القاضي، Frontend Developer، والمؤسس المشارك و CTO في EXTEM',
+        'contact.sub': 'متاح لوظايف Frontend وشغل freelance. الواتساب هو أسرع وسيلة توصلني بيها.',
+        'contact.whoami': 'أنا سيف القاضي، Frontend Developer',
+        'contact.whatsappLabel': 'واتساب',
+        'contact.preferredTag': '(أسرع رد)',
         'contact.emailLabel': 'الإيميل',
         'contact.githubLabel': 'جيت هاب',
-        'contact.whatsappLabel': 'واتساب',
         'contact.instagramLabel': 'إنستجرام',
-        'contact.sayHello': 'ssaifelkadyy@gmail.com',
+        'contact.sayHello': 'كلمني واتساب',
 
         'footer.line': '© 2026 سيف القاضي. اتعمل بإيدي، من غير framework خالص :)',
         'footer.backTop': 'ارجع لفوق ↑',
 
         'projects.heading': 'شغل مختار',
-        'projects.sub': 'قايمة بالحاجات اللي بنيتها — للعملاء، لـ EXTEM، وليا أنا كمان.',
-        'projects.thumbPlaceholder': 'مكان الصورة — هتتغير بلقطة حقيقية',
-        'projects.p1.title': 'Extem Academy',
-        'projects.p1.tag': 'EXTEM',
-        'projects.p1.desc': 'منصة تعليمية مبنية بـ React تحت مظلة EXTEM. عملت الـ routing بـ React Router، بنيت نظام تسجيل الدخول والاشتراك، ورتّبت المشروع من الصفر.',
-        'projects.p2.title': 'EXTEM — موقع الشركة',
-        'projects.p2.tag': 'EXTEM',
-        'projects.p2.desc': 'موقع الاستوديو نفسه. بتابعه باستمرار من ناحية الـ frontend: عملت navbar الموبايل شكل frosted-glass pill، وخليت كل صفحة responsive، وأعدت هيكلة الكود عشان يبقى semantic ومتاح للجميع.',
-        'projects.p3.title': 'تطبيق Workspace شخصي',
-        'projects.p3.tag': 'شخصي',
-        'projects.p3.desc': 'مساحة عمل شخصية، فكرة وتصميم مني بالكامل. غيّرت شكل الـ authentication بالكامل بستايل "دفتر" دافي بألوان الحبر والعنبر.',
-        'projects.tagAuth': 'تسجيل دخول',
-        'projects.tagHtmlCss': 'HTML/CSS',
-        'projects.tagAccessibility': 'إتاحة',
-        'projects.tagUiDesign': 'تصميم UI',
-        'projects.liveSite': 'الموقع',
-        'projects.code': 'الكود',
+        'projects.sub': 'قايمة بالحاجات اللي بنيتها للعملاء.',
+
+        'projects.extem.desc': 'موقع الشركة اللي بيعرض البراند والخدمات والهوية الاحترافية بشكل واضح وبسيط.',
+        'projects.extem.tag': 'موقع شركة',
+        'projects.glimmerka.desc': 'موقع تجارة إلكترونية اتصمم عشان يعرض المنتجات ويدّي تجربة شراء سهلة ومريحة.',
+        'projects.glimmerka.tag': 'تجارة إلكترونية',
+        'projects.ahmedhisham.desc': 'بورتفوليو شخصي اتبنى عشان يعرض الشغل والمهارات والهوية الشخصية بشكل نضيف وعصري.',
+        'projects.ahmedhisham.tag': 'بورتفوليو',
+
+        'projects.tagWeb': 'ويب',
+        'projects.tagBrand': 'براند',
+        'projects.tagUi': 'UI',
+        'projects.tagFrontend': 'فرونت إند',
+        'projects.tagMarketing': 'ماركتنج',
+        'projects.tagDesign': 'تصميم',
+        'projects.tagPortfolio': 'بورتفوليو',
+        'projects.tagResponsive': 'ريسبونسف',
+        'projects.tagLanding': 'لاندينج',
     }
 };
 
@@ -176,9 +174,7 @@ function setLang(lang, { persist = true } = {}) {
 }
 
 function replayIntro() {
-    // Re-arm the intro loader so a language switch feels like a fresh
-    // visit — only index.html has these elements/classes, so this is a
-    // no-op (harmless) on pages like projects.html.
+
     const introLoader = document.getElementById('introLoader');
     document.body.classList.add('is-loading');
     document.body.classList.remove('intro-done');
@@ -202,11 +198,6 @@ function initLang() {
             const current = document.documentElement.getAttribute('lang') === 'ar' ? 'ar' : 'en';
             const next = current === 'ar' ? 'en' : 'ar';
 
-            // Persist the new language, then do a full reload so the
-            // intro-loader sequence plays again from the top (matching
-            // the fresh-visit experience) and everything on the page
-            // — including anything index.js sets up once on load —
-            // re-initializes cleanly in the new language.
             storeLang(next);
             window.location.reload();
         });

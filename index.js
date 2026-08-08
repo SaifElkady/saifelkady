@@ -85,24 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ---- Project card tilt (only present on projects.html) ----
-    const projectCards = document.querySelectorAll('.project-card');
-    if (projectCards.length && pointerFine && !prefersReducedMotion) {
-        projectCards.forEach((card) => {
-            card.addEventListener('mousemove', (e) => {
-                const rect = card.getBoundingClientRect();
-                const px = (e.clientX - rect.left) / rect.width;
-                const py = (e.clientY - rect.top) / rect.height;
-                const rotateY = (px - 0.5) * 14;
-                const rotateX = (0.5 - py) * 14;
-                card.style.transform = `perspective(700px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.015)`;
-            });
-            card.addEventListener('mouseleave', () => {
-                card.style.transform = '';
-            });
-        });
-    }
-
     // ---- Contact terminal typing sequence ----
     async function runContactSequence(section) {
         const cmds = section.querySelectorAll('.type-cmd');
