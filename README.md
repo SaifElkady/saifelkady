@@ -16,21 +16,11 @@ I build full-stack web products end to end.
 
 ## Profile
 
-<table>
-  <tr>
-    <td valign="top" width="62%">
-      I run engineering and product at <a href="https://extem.net/">EXTEM</a>, a digital agency delivering web design, full-stack development, AI and automation, and video editing. I lead client projects from scope to launch, and I write the code that ships them.<br><br>
-      My rule for a build: a fast interface, a clean structure, and automation anywhere a person would otherwise do the same job twice.
-    </td>
-    <td valign="top" width="38%">
-      <b>Role</b><br>Co-Founder &amp; CTO<br><br>
-      <b>Company</b><br><a href="https://extem.net/">EXTEM</a><br><br>
-      <b>Based</b><br>Egypt<br><br>
-      <b>Focus</b><br>Full-stack web, AI automation<br><br>
-      <b>Currently</b><br>Scaling EXTEM's delivery
-    </td>
-  </tr>
-</table>
+I run engineering and product at **EXTEM**, a digital agency delivering web design, full-stack development, AI and automation, and video editing. I lead client projects from scope to launch, and I write the code that ships them.
+
+My rule for a build: a fast interface, a clean structure, and automation anywhere a person would otherwise do the same job twice.
+
+<sub>Egypt &nbsp;·&nbsp; Full-stack web &nbsp;·&nbsp; AI automation &nbsp;·&nbsp; Currently scaling EXTEM's delivery</sub>
 
 ---
 
@@ -38,12 +28,12 @@ I build full-stack web products end to end.
 
 <div align="center">
 
-<img height="26" src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=FFFFFF" alt="React" />
-<img height="26" src="https://img.shields.io/badge/Vite-111111?style=flat-square&logo=vite&logoColor=FFFFFF" alt="Vite" />
-<img height="26" src="https://img.shields.io/badge/Tailwind_CSS-111111?style=flat-square&logo=tailwindcss&logoColor=FFFFFF" alt="Tailwind CSS" />
-<img height="26" src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=FFFFFF" alt="JavaScript" />
-<img height="26" src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript" />
-<img height="26" src="https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=FFFFFF" alt="Node.js" />
+<picture><img height="26" src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=FFFFFF" alt="React" /></picture>
+<picture><img height="26" src="https://img.shields.io/badge/Vite-111111?style=flat-square&logo=vite&logoColor=FFFFFF" alt="Vite" /></picture>
+<picture><img height="26" src="https://img.shields.io/badge/Tailwind_CSS-111111?style=flat-square&logo=tailwindcss&logoColor=FFFFFF" alt="Tailwind CSS" /></picture>
+<picture><img height="26" src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=FFFFFF" alt="JavaScript" /></picture>
+<picture><img height="26" src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript" /></picture>
+<picture><img height="26" src="https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=FFFFFF" alt="Node.js" /></picture>
 
 </div>
 
