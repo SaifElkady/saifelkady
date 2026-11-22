@@ -1,8 +1,10 @@
 <div align="center">
 
-# Saif Elkady
-
-**Co-Founder & CTO at [EXTEM](https://extem.net/)**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaifElkady/SaifElkady/main/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaifElkady/SaifElkady/main/banner.svg">
+  <img src="https://raw.githubusercontent.com/SaifElkady/SaifElkady/main/banner.svg" alt="Saif Elkady, Co-Founder and CTO at EXTEM" width="100%">
+</picture>
 
 I build full-stack web products end to end.
 
@@ -12,48 +14,67 @@ I build full-stack web products end to end.
 
 ---
 
-## About
+## Profile
 
-I run engineering and product at **EXTEM**, a digital agency delivering web design, full-stack development, AI and automation, and video editing. I lead client projects from scope to launch, and I write the code that ships them.
-
-**Current focus**
-
-- Scaling EXTEM's delivery: web platforms, automation systems, and AI integrations
-- Building and maintaining my portfolio at [saifelkady.pages.dev](https://saifelkady.pages.dev/)
-- Shipping fast, accessible interfaces with React, Vite, and Tailwind
+<table>
+  <tr>
+    <td valign="top" width="62%">
+      I run engineering and product at <a href="https://extem.net/">EXTEM</a>, a digital agency delivering web design, full-stack development, AI and automation, and video editing. I lead client projects from scope to launch, and I write the code that ships them.<br><br>
+      My rule for a build: a fast interface, a clean structure, and automation anywhere a person would otherwise do the same job twice.
+    </td>
+    <td valign="top" width="38%">
+      <b>Role</b><br>Co-Founder &amp; CTO<br><br>
+      <b>Company</b><br><a href="https://extem.net/">EXTEM</a><br><br>
+      <b>Based</b><br>Egypt<br><br>
+      <b>Focus</b><br>Full-stack web, AI automation<br><br>
+      <b>Currently</b><br>Scaling EXTEM's delivery
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Tech Stack
+## Stack
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=FFFFFF" height="26" />
-<img src="https://img.shields.io/badge/Vite-111111?style=flat-square&logo=vite&logoColor=FFFFFF" height="26" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-111111?style=flat-square&logo=tailwindcss&logoColor=FFFFFF" height="26" />
-<img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=FFFFFF" height="26" />
-<img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=FFFFFF" height="26" />
-<img src="https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=FFFFFF" height="26" />
+<img height="26" src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=FFFFFF" alt="React" />
+<img height="26" src="https://img.shields.io/badge/Vite-111111?style=flat-square&logo=vite&logoColor=FFFFFF" alt="Vite" />
+<img height="26" src="https://img.shields.io/badge/Tailwind_CSS-111111?style=flat-square&logo=tailwindcss&logoColor=FFFFFF" alt="Tailwind CSS" />
+<img height="26" src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=FFFFFF" alt="JavaScript" />
+<img height="26" src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript" />
+<img height="26" src="https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=FFFFFF" alt="Node.js" />
 
 </div>
 
 ---
 
-## Featured Projects
+## Selected Work
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **[EXTEM](https://extem.net/) Agency** | Digital agency I co-founded and lead as CTO. Web design, full-stack development, AI and automation, and video editing for clients. | React · Vite · Tailwind · Node.js |
-| **[Portfolio](https://saifelkady.pages.dev/)** | Personal site covering full-stack projects, technical skills, and work experience. | React · Vite · Tailwind · Cloudflare Pages |
+**[EXTEM](https://extem.net/)**<br>
+Digital agency. Web design, full-stack development, AI and automation, and video editing for clients.<br>
+<sub>Co-Founder &amp; CTO &nbsp;·&nbsp; React · Vite · Tailwind · Node.js</sub>
+
+<br>
+
+**[Portfolio](https://saifelkady.pages.dev/)**<br>
+Personal site covering full-stack projects, technical skills, and work experience.<br>
+<sub>React · Vite · Tailwind · Cloudflare Pages</sub>
 
 ---
 
-## GitHub Overview
+## Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SaifElkady&show_icons=true&hide_border=true&theme=dark&title_color=FFFFFF&icon_color=FFFFFF&text_color=BFBFBF&bg_color=0D0D0D" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaifElkady&layout=compact&hide_border=true&theme=dark&title_color=FFFFFF&text_color=BFBFBF&bg_color=0D0D0D" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=SaifElkady&show_icons=true&hide_border=true&bg_color=00000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=BFBFBF">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SaifElkady&show_icons=true&hide_border=true&bg_color=00000000&title_color=111111&icon_color=111111&text_color=444444" alt="GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SaifElkady&layout=compact&hide_border=true&bg_color=00000000&title_color=FFFFFF&text_color=BFBFBF">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaifElkady&layout=compact&hide_border=true&bg_color=00000000&title_color=111111&text_color=444444" alt="Top languages" />
+</picture>
 
 </div>
 
@@ -63,9 +84,9 @@ I run engineering and product at **EXTEM**, a digital agency delivering web desi
 
 <div align="center">
 
-<a href="https://saifelkady.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=cloudflarepages&logoColor=FFFFFF" height="26" /></a>
-<a href="mailto:ssaifelkadyy@gmail.com"><img src="https://img.shields.io/badge/Email-111111?style=flat-square&logo=gmail&logoColor=FFFFFF" height="26" /></a>
-<a href="https://wa.me/201114382483"><img src="https://img.shields.io/badge/WhatsApp-111111?style=flat-square&logo=whatsapp&logoColor=FFFFFF" height="26" /></a>
-<a href="https://www.instagram.com/ssaifelkadyy"><img src="https://img.shields.io/badge/Instagram-111111?style=flat-square&logo=instagram&logoColor=FFFFFF" height="26" /></a>
+<a href="https://saifelkady.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=cloudflarepages&logoColor=FFFFFF" alt="Portfolio" /></a>
+<a href="mailto:ssaifelkadyy@gmail.com"><img src="https://img.shields.io/badge/Email-111111?style=flat-square&logo=gmail&logoColor=FFFFFF" alt="Email" /></a>
+<a href="https://wa.me/201114382483"><img src="https://img.shields.io/badge/WhatsApp-111111?style=flat-square&logo=whatsapp&logoColor=FFFFFF" alt="WhatsApp" /></a>
+<a href="https://www.instagram.com/ssaifelkadyy"><img src="https://img.shields.io/badge/Instagram-111111?style=flat-square&logo=instagram&logoColor=FFFFFF" alt="Instagram" /></a>
 
 </div>
